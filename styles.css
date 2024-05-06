@@ -1,0 +1,67 @@
+* {
+    font-family: Helvetica;
+}
+
+body{
+    background-image: url(https://textoeditable.com.br/_imagens/Imagem%20de%20v%C3%A1rias%20letras%20representando%20o%20artigo%20o%20que%20%C3%A9%20Caracteres..webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.field {
+    width: 500px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-size: 0.9rem;
+    background-color: #ffffffda;
+    border-radius: 5px;
+    width: 7.5rem;
+}
+
+h1{
+    background-color: #ffffffda;
+    border-radius: 5px;
+}
+
+textarea {
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.counter {
+    font-size: 0.8rem;
+    color: #4285f4;
+    background-color: #ffffffda;
+    border-radius: 5px;
+}
+
+#toggle {
+    width: auto;
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#toggle:hover {
+    background-color: #0069d9;
+}
